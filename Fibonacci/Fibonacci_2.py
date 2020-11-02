@@ -4,7 +4,7 @@
    用生成器方法实现斐波那契数列"""
 
     
-def fibonacci(n):    #生成器函数
+def fibonacci(n):    #生成器函数   # 如果要生成“无限项”的，如何做？
     a,b = 0,1  #斐波那契数列的前两项为0，1
     count = 0
     while True:
