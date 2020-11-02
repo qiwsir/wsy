@@ -3,7 +3,7 @@
 """王思媛 20201028
    用迭代器方法实现斐波那契数列"""
 
-class Fibonacci():    #创建斐波那契迭代器
+class Fibonacci():    #创建斐波那契迭代器  ## 定义类，类名称后面如果没有继承，不写括号
     def __init__(self,n):    #初始化
         self.n = n
         self.a = 1
