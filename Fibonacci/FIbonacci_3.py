@@ -15,7 +15,7 @@ class Fibonacci():    #创建斐波那契迭代器
     
     def __next__(self):     #定义next
         while self.count < self.n:
-                self.a,self.b = self.b,self.a+self.b
+                self.a,self.b = self.b,self.a + self.b  #注意缩进，
                 self.count += 1
                 return self.a
 
